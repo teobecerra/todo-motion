@@ -4,6 +4,8 @@
 
 A classic to do-app in ReactJS but with added drag & drop functionality using react-motion library.
 
+![Screenshot from to do app](/readmeimage.png)
+
 ## Getting started
 
 ### `npm install`
