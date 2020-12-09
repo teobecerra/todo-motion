@@ -7,8 +7,9 @@ import DragableList from './components/DragableList';
 const App = () => {
 
   const [currentInput, setCurrentInput] = useState("");
-  const [todos, setTodos] = useState<any>([{ id: 123, text: "Fixa backend", done: false }, 
-  { id: 789, text: "Flytta överstrukna längst ner i listan", done: true }]);
+  const [todos, setTodos] = useState<any>([{ id: 123, text: "Fix backend", done: false },
+  { id: 769, text: "Do more github projects", done: true }, 
+  { id: 789, text: "Add motion", done: true }]);
   const [input, updateInput] = useState("");
 
   const addTodo = (currentInput) => {
